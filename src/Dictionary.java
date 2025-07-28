@@ -2,6 +2,9 @@ import java.util.*;
 
 public class Dictionary {
 
+    public static void main() {
+
+    }
     public static void Test(String[] args) {
 
         String str = "123456789";
@@ -13,12 +16,15 @@ public class Dictionary {
         Collections.sort(list); // 오름차순 12345
         Collections.sort(list, Collections.reverseOrder()); // 내림차순 54321
 
+//        ArrayList<Integer> aa = Arrays.asList(nums);
+
         // HashSet : 중복 자동 제거, 순서 불필요, 빠른탐색
         Set<Integer> set = new HashSet<>();
         Set<Integer> rightArr = new HashSet<>(Arrays.asList(3,6,9)); // 선언과 동시에 초기화
         set.remove("지우고 싶은 set안의 값"); // 이거 할때 idx값이 유동적이니까(set의 사이즈가 계속 달라짐) 뭐가 맞는지 잘 판단해보고 하기!
         // ArrayList : 순서 중요, 인덱스로 접근, 중복허용
         ArrayList<Integer> list2 = new ArrayList<>();
+
 
         // keypad 3*3(N*N) 양손 시작할때 거리 구하기
         int number = 11; // 현재 손 위치

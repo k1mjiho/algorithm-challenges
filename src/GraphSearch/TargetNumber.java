@@ -31,7 +31,7 @@ public class TargetNumber {
         }
 
         Stack<Node> stack = new Stack<>();
-        stack.push(new Node(0, 0));
+        stack.push(new Node(0, 0)); // 시작노드
 
         while (!stack.isEmpty()) {
             Node node = stack.pop();
