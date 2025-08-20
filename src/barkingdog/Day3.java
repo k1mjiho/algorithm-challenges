@@ -5,7 +5,7 @@ import java.util.Arrays;
 * Day3 배열
 * 원소가 연속적으로 저장되어있음
 * */
-public class day3 {
+public class Day3 {
 
     public static void main(String[] args) {
 
