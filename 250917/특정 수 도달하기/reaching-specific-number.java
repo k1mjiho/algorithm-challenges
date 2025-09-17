@@ -9,12 +9,12 @@ public class Main {
 
         String[] arr = row.split(" ");
         int sum = 0;
-        double evg = 0;
+        double evg = 0.0;
         int cnt = 0;
 
         for(int i=0; i<arr.length; i++) {
             int tmp = Integer.parseInt(arr[i]);
-            if(tmp >= 250) { 
+            if(tmp > 250) { 
                 cnt = i;
                 break;
                 }
