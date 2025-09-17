@@ -20,6 +20,6 @@ public class Main {
         }
 
         evg = (double) sum / cnt;
-        System.out.print(sum + " " + Math.round(evg*100) / 100.0);
+        System.out.print(sum + " " + Math.round(evg*10) / 10.0);
     }
 }
