@@ -14,11 +14,9 @@ public class Main {
 
         for(int i=0; i<arr.length; i++) {
             int tmp = Integer.parseInt(arr[i]);
-            if(tmp >= 250) { 
-                cnt = i;
-                break;
-                }
+            if(tmp >= 250) break;
             sum += tmp;
+            cnt++;
         }
 
         evg = (double) sum / cnt;
