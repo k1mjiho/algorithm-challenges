@@ -14,7 +14,7 @@ public class Main {
 
         for(int i=0; i<arr.length; i++) {
             int tmp = Integer.parseInt(arr[i]);
-            if(tmp > 250) { 
+            if(tmp >= 250) { 
                 cnt = i;
                 break;
                 }
@@ -22,6 +22,6 @@ public class Main {
         }
 
         evg = (double) sum / cnt;
-        System.out.print(sum + " " + evg);
+        System.out.print(sum + " " + Math.round(evg*100) / 100.0);
     }
 }
