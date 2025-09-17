@@ -12,7 +12,7 @@ public class Main {
         double evg = 0.0;
         int cnt = 0;
 
-        for(int i=0; i<arr.length; i++) {
+        for(int i=0; i<arr.length-1; i++) {
             int tmp = Integer.parseInt(arr[i]);
             if(tmp >= 250) { 
                 cnt = i;
